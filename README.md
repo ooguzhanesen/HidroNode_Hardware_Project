@@ -1,4 +1,4 @@
-# STM32WL Nucleo Taşıyıcı Kart – Donanım Tasarım Dokümantasyonu
+# STM32WL HidroNode – Donanım Tasarım Dokümantasyonu
 
 > **Hazırlayan:** Oğuzhan ESEN  
 > **Proje Adı:** HidroNode Board 
@@ -66,22 +66,40 @@ Taşıyıcı kart, aşağıdaki teknik özellikleri ile ölçüm istasyonlarınd
 
 ## 3. Sistem Blok Diyagramı
 
-![alt text](HidroNode.drawio.png)
+![alt text](docs/Images/HidroNode.drawio.png)
 
 ## 4. Tasarım Özeti
 
 Tasarım 4 katlı olacak şekikde KiCAD üzerinden tasarlanmıştır.
 
 ## 5. Şematik ve PCB
-[Şematik için tıklayın](HidroNode_Project.pdf)
+[Şematik için tıklayın](docs/HidroNode_Project.pdf)
 
+![alt text](docs/Images/WhatsApp%20Image%202025-12-24%20at%2020.03.54.jpeg)
+![alt text](docs/Images/WhatsApp%20Image%202025-12-24%20at%2020.03.53%20(1).jpeg)
+![alt text](docs/Images/WhatsApp%20Image%202025-12-24%20at%2020.03.50.jpeg)
+![alt text](docs/Images/_DSC2439.JPG)
 ---
 ## 6. Test Notları
-
+* 5v regülatör devresinde 75pf olmadıgı için en yakın deger olan 68pf kullanıldı.
 
 ---
 ## 7. Geliştirme ve İyileştirme Önerileri
 
+* indüktör footprinti güncellenebilir.
+* tvs diyot kıfı küçültülebilir.
+* Genişleme portunun slikscreeni düzeltilecek. 
+* Kart soket tipi degistirilebilir 
+
+--- 
+
+## Eksikler
+* Anten kablosu alınacak.
+* kart montajı için vida alınacak
+* genişleme portu karsılık soketi alınacak
+* hoparlor modulunun voltajı 3.3 volta dusurulecek.
+* sbrr alınması gerek. 1 adet kaldı.  
+* 150 ohm sont bitti. 
 
 
 
